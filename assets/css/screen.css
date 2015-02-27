@@ -14,9 +14,10 @@
     7.  Third Party Elements
     8.  Pagination
     9.  Footer
-    10. Media Queries (Tablet)
-    11. Media Queries (Mobile)
-    12. Animations
+    10. Media Queries (Medium Desktop)
+    11. Media Queries (Tablet)
+    12. Media Queries (Mobile)
+    13. Animations
 
 */
 
@@ -1198,10 +1199,6 @@ body:not(.post-template) .post-title {
     font-size: 1.1rem;
 }
 
-/* Pastebin */
-.content .embedPastebin {
-    margin-bottom: 1.75em;
-}
 
 /* ==========================================================================
    8. Pagination - Tools to let you flick between pages
