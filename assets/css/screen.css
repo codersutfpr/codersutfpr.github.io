@@ -583,7 +583,7 @@ margin on the iframe, cause it breaks stuff. */
     text-transform: uppercase;
     line-height: 35px;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.1) !important;
     transition: all ease 0.3s;
 }
 .back-button:before {
@@ -610,7 +610,7 @@ margin on the iframe, cause it breaks stuff. */
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.1) !important;
     transition: all ease 0.3s;
 }
 .subscribe-button:before {
@@ -630,6 +630,7 @@ margin on the iframe, cause it breaks stuff. */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0)));
     background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    text-align: right;
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
@@ -639,6 +640,47 @@ margin on the iframe, cause it breaks stuff. */
 
 .main-nav.overlay a {
     color: #fff;
+    padding: 5px 20px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    padding: 0 20px;
+    border: transparent 1px solid;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    background: rgba(0,0,0,0.1);
+    transition: all ease 0.3s;
+    margin-right: 20px;
+}
+
+.no-cover .main-nav{
+    text-align: right;
+}
+
+.no-cover .main-nav a{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 38px;
+    padding: 0 20px;
+    border: transparent 1px solid;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all ease 0.3s;
+    margin-right: 20px;
+    color: #9EABB3;
 }
 
 .main-nav.overlay .back-button,
@@ -647,10 +689,10 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay a:hover {
-    color: #222;
+    color: #fff;
     border-color: #fff;
-    background: #fff;
     transition: all 0.1s ease;
+    border-color: rgba(255,255,255,0.6);
 }
 
 /* Add a border to the buttons on hover */
@@ -695,7 +737,8 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
+.no-cover .main-nav.overlay .subscribe-button,
+.no-cover .main-nav.overlay a {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }

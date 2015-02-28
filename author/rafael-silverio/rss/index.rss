@@ -1,66 +1,15 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Rafael Silvério - Coders UTFPR</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Fri, 27 Feb 2015 23:34:28 GMT</lastBuildDate><atom:link href="http://localhost:2368/author/rafael-silverio/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Rafael Silvério - Coders UTFPR</title><description>Pessoas apaixonadas por tecnologia e desenvolvimento. Venha fazer parte desse maravilhoso mundo (:</description><link>http://localhost:2368/</link><generator>Ghost 0.5</generator><lastBuildDate>Sat, 28 Feb 2015 00:18:05 GMT</lastBuildDate><atom:link href="http://localhost:2368/author/rafael-silverio/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Dinâmica de Brainstorm</title><description>&lt;p&gt;Fala Pessoal, nesta semana no dia 24/02/2015 aconteceu a nossa primeira dinâmica de Brainstorm sobre o projeto para o &lt;a href="http://localhost:2368/sobre"&gt;Coders UTFPR&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;Foi uma dinâmica bem legal e provavelmente vamos utilizar no decorrer de nossa aprendizagem com esse e outros projetos (: &lt;br&gt;
+&lt;em&gt;Vou criar um post específico para mostrar a vocês como funciona essa dinâmica&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!&lt;/p&gt;
+&lt;p&gt;Como resultado criamos um documento que lista as principais e as secundárias ideias que surgiram durante o nosso encontro.&lt;/p&gt;
 
-&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
+&lt;p&gt;Você pode acessá-las &lt;a href="https://docs.google.com/document/d/1pxd6bMEI-PtyjQK-rJaO2aIXdiwsdOrMmSuiktUTZok/edit?usp=sharing"&gt;aqui&lt;/a&gt;.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Para o próximo encontro vamos definir as metodologias que serão utilizadas e também a equipe responsável pelo escopo de &lt;a href="http://pt.wikipedia.org/wiki/Engenharia_de_software"&gt;Engenharia de Software&lt;/a&gt;. &lt;br&gt;
+Então, se você gosta de gerenciar projetos(ou quer aprender), ter um produto de qualidade, organização e ficar ao lado de pessoas que amam tudo isso, coloque seu nome na &lt;a href="https://docs.google.com/spreadsheets/d/1sS7MQ5_bD9qvkCwNELRNGLJwotHtlgq8ZN_b-Kqgd30/edit?usp=sharing"&gt;lista&lt;/a&gt; já!.&lt;/p&gt;
 
-&lt;p&gt;or with numbers!&lt;/p&gt;
+&lt;p&gt;Queria deixar um obrigado a todos que comparecerão, em especial, ao &lt;a href="https://www.facebook.com/eldrey"&gt;Eldrey&lt;/a&gt; que nos levou essa dinâmica de brainstorm e ao Professor &lt;a href="https://www.facebook.com/leandro.batistadealmeida"&gt;Leandro&lt;/a&gt; que tem nos dados força nessa iniciativa. &lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id="links"&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href="http://ghost.org/"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org/"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
-
-&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
-
-&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="https://ghost.org/images/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
-
-&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
-
-&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
-
-&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when we introduce spellcheck! For now - it's definitely a word.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wisdomous - it's definitely a word.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id="workingwithcode"&gt;Working with Code&lt;/h3&gt;
-
-&lt;p&gt;Got a streak of geek? We've got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;.awesome-thing {
-    display: block;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id="readyforabreak"&gt;Ready for a Break?&lt;/h3&gt;
-
-&lt;p&gt;Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h3 id="advancedusage"&gt;Advanced Usage&lt;/h3&gt;
-
-&lt;p&gt;There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.&lt;/p&gt;
-
-&lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
-
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">77c1e7af-a7b8-457f-b32c-18260240af2e</guid><category>Getting Started</category><dc:creator>Rafael Silvério</dc:creator><pubDate>Fri, 27 Feb 2015 23:28:15 GMT</pubDate></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;Aguardo vocês nos próximos encontro, hein ? :)&lt;/strong&gt;&lt;/p&gt;</description><link>http://localhost:2368/dinamica-de-brainstorm/</link><guid isPermaLink="false">41dbb6b1-8b81-4ddb-8ca1-12e50cbc76a2</guid><dc:creator>Rafael Silvério</dc:creator><pubDate>Fri, 27 Feb 2015 23:45:55 GMT</pubDate></item></channel></rss>
