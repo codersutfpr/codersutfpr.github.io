@@ -28,8 +28,8 @@
 <header class="main-header post-head " style="background-image: url(content/images/2015/02/studio-1.jpg)">
     <nav class="main-nav overlay intern clearfix">
         <a class="back-button icon-arrow-left" href="http://codersutfpr.github.io">Home</a>
-        <a href="sobre" alt="Sobre a Coders UTFPR">Sobre</a>
-        <a href="venha-nos-conhecer" alt="Venha nos conhecer">Venha nos conhecer</a>
+        <a href="http://codersutfpr.github.io//sobre/" alt="Sobre a Coders UTFPR">Sobre</a>
+        <a href="http://codersutfpr.github.io//venha-nos-conhecer/" alt="Venha nos conhecer">Venha nos conhecer</a>
         <a class="subscribe-button icon-feed" href="http://codersutfpr.github.io/rss/">Subscribe</a>
     </nav>
 </header>
